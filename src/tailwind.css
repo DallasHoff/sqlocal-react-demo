@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+
+@custom-variant over {
+	&:hover,
+	&:focus-visible {
+		@slot;
+	}
+}
