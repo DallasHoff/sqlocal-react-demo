@@ -1,4 +1,4 @@
-import { useReactiveQuery } from './sqlocal/use-reactive-query';
+import { useReactiveQuery } from 'sqlocal/react';
 import { db } from './sqlocal/client';
 import type { FormEvent } from 'react';
 
